@@ -1,0 +1,31 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1441px;
+    height: 848px;
+
+    .title {
+        color: #205B9C;
+    }
+
+    .aliados {
+        padding: 0%;
+        margin: 0%;
+
+        .card {
+            width: 194px;
+            height: 265px;
+        }
+    }
+
+    .titulos {
+        position: absolute;
+        color: black;
+        top: 200px;
+        left: 10px;
+        color: white;
+    }
+}
