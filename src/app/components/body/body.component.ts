@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-body',
   standalone: true,
-  imports: [],
+  imports: [FooterComponent],
   templateUrl: './body.component.html',
   styleUrl: './body.component.scss'
 })
