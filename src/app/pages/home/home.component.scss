@@ -1,5 +1,6 @@
 .body{
     background-image: url('/assets/fondo.png') !important;
+    background-size: cover;
 }
 
 .bodyhome{
@@ -16,19 +17,21 @@
     background-color: #F4A219;
     color: white;
     border-radius: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
+    
 }
 .footbtnsbar{
     background-color: #205b9c;
     width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
 }
-.footbtns{
+/* .footbtns{
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 10%;
     padding-right: 10%;
-}
+} */
 .btn-blanco{
     background-color: white;
     color: #205b9c;
