@@ -1,0 +1,12 @@
+.bodyabout{
+    background-color: white;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 500px) {
+    .nosotrosimg {
+        display:none
+    }
+}
