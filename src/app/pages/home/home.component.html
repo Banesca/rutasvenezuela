@@ -1,14 +1,14 @@
-<div class="body">
+<div class="body" id="home">
     <app-header></app-header>
     <div class="container-xl w-100 bodyhome">
         <div class="container justify-content-md-center text-white py-3">
             <div class="hometitle">
-                <h1>TE DAMOS EL PARAÍSO</h1>
-                <h2>Tú eliges el plan</h2>
+                <h1 class="display-1">TE DAMOS EL PARAÍSO</h1>
+                <h2 class="display-5">Tú eliges el plan</h2>
             </div>
-            <div class="container py-2">
+            <div class="container py-3">
                 <h5>¡No te lo pierdas!</h5>
-                <button type="button" class="btn btn-subscribe"><b>Suscríbete a nuestra revista</b></button>
+                <a class="btn btnlargo btn-subscribe link" href="#suscribir"><b>Suscríbete a nuestra revista</b></a>
             </div>
         </div>
         <!-- Barra de Búsqueda comentada por ahora
@@ -36,28 +36,21 @@
     <div class="container-md foobtns justify-content-md-center">
         <ul class="nav nav-pills nav-justified" style="gap: 2%;">
             <li class="nav-item">
-                <a class="nav-link text-center btn-blanco" href="#"><b>Nosotros</b></a>
+                <a class="nav-link text-center btn-blanco" href="#aboutus"><b>Nosotros</b></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-center btn-blanco" href="#"><b>Ediciones</b></a>
+                <a class="nav-link text-center btn-blanco" href="#editions"><b>Ediciones</b></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-center btn-blanco" href="#"><b>Aliados</b></a>
+                <a class="nav-link text-center btn-blanco" href="#aliados"><b>Aliados</b></a>
             </li>
         </ul>
     </div>
 </div>
-<!-- <div class="footbtnsbar">
-    <div class="container-fluid">
-        <div class="row align-items-center w-100">
-            <div class="col-4 btn btn-blanco"> <a href="#">Nosotros</a> </div>
-            <div class="col-4 btn btn-blanco"> <a href="#">Ediciones</a> </div>
-            <div class="col-4 btn btn-blanco"> <a href="#">Aliados</a> </div>
-        </div>
-    </div>
-</div> -->
+
 <app-about></app-about>
 <app-editions></app-editions>
 <app-aliados></app-aliados>
 <app-noticias></app-noticias>
 <app-subscribe></app-subscribe>
+<app-footer></app-footer>

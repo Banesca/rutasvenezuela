@@ -1,7 +1,28 @@
 .bodysubscribe{
     background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-@media screen and (max-width: 400px){
+.subscribebox{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.inputsubscribe{
+    border-radius: 20px;
+
+}
+.btn-subscribe{
+    background-color: #F4A219;
+    color: white;
+    border-radius: 20px;
+}
+.btn-subscribe:hover{
+    background-color: #f8b33b !important;
+    border-color: transparent;
+    color: white;
+}
+
+@media screen and (max-width: 500px){
     .subsimg {
         display:none;
     }

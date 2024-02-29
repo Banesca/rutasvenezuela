@@ -1,6 +1,16 @@
-.app-footer{
+.appfooter{
     background-color: #205b9c;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+.footer1{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.footer2{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .btn-blanco{
     background-color: white;
@@ -8,14 +18,21 @@
     border-radius: 20px;
     margin-top: 1%;
 }
-
-.barsearch{
-    padding-left: 13%;
-    padding-right: 13%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+.footmenu{
+    text-align: center;
+    color: white;
+    align-items: center;
+    a:link {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+      }
 }
-.footbtns{
-    padding-left: 10%;
-    padding-right: 10%;
+@media screen and (max-width: 780px) {
+    .cstm-width-img-foot {
+    width: 6%;
+    }
+    .cstm-width-img-foot2 {
+        width: 75%;
+    }
 }
