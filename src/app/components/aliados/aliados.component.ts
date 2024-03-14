@@ -11,20 +11,19 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class AliadosComponent {
 
   customOptions: OwlOptions = {
-    loop: true,
+    
     mouseDrag: true,
     touchDrag: true,
     pullDrag: false,
-    dots: false,
     navSpeed: 700,
-    navText: ['', ''],
+    navText: ['<', '>'],
     nav: true,
-    animateOut: false,
-    animateIn: false,
-    items: 1,
-    stagePadding: 190,
+    loop: true,
     autoplay: true,
     center: true,
+    dots: false,
+    autoHeight: true,
+    autoWidth: true,
     responsive: {
       0: {
         items: 1
@@ -33,10 +32,10 @@ export class AliadosComponent {
         items: 1
       },
       740: {
-        items: 3
+        items: 4
       },
       940: {
-        items: 6
+        items: 4
       }
     },
   }
