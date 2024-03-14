@@ -5,18 +5,21 @@ p {
 
 .container {
 
-
-
     .contenedor {
         margin-top: 81px;
-        margin-left: 181px;
-        margin-right: 149px;
         width: 100%;
         margin-bottom: 100px;
+        padding: 5%;
     }
 
     .title {
         color: #205B9C;
+    }
+
+    .expanded {
+        width: 700px !important;
+        max-height: 500px;
+
     }
 
     .aliados {
@@ -24,13 +27,14 @@ p {
         margin: 0%;
 
         .card {
-            width: 100%; // Cambia esto a 100% para que las tarjetas se ajusten al tamaño del contenedor
+            width: 100%;
+             // Cambia esto a 100% para que las tarjetas se ajusten al tamaño del contenedor
         }
     }
 
     .boton {
         position: absolute;
-        top: 99px;
+        top: 126px;
         left: 16px;
         color: #205B9C;
         background-color: white;
@@ -48,9 +52,6 @@ p {
         left: 16px;
     }
 
-    .expanded {
-        width: 80%; // o cualquier otro valor que desees
-    }
 
     .container {
         display: flex;
@@ -59,10 +60,13 @@ p {
         .card {
             border: none;
             width: 25%;
-
+            img{
+                width: 100%;
+                height: 100%;
+            }
             .textAndButtom {
                 position: absolute;
-                top: 85px;
+                top: 23px;
                 width: 76%;
                 color: white;
             }
@@ -73,6 +77,7 @@ p {
         flex: 1 0 auto;
         margin: 0 10px;
     }
+
 }
 
 
@@ -83,30 +88,21 @@ p {
 
 
 @media (max-width: 1200px) {
-    .contenedor {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
+
 }
 
 @media (max-width: 992px) {
-    .contenedor {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+
 }
 
 @media (max-width: 768px) {
-    .contenedor {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+
 
     .container {
         .card {
             width: 100% !important;
         }
-
+    
         .textAndButtom {
             top: 50px !important;
         }
@@ -120,3 +116,4 @@ p {
         margin-right: 10px !important;
     }
 }
+

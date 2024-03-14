@@ -19,6 +19,8 @@ export class AliadosComponent {
     navSpeed: 700,
     navText: ['', ''],
     nav: true,
+    animateOut: false,
+    animateIn: false,
     items: 1,
     stagePadding: 190,
     autoplay: true,

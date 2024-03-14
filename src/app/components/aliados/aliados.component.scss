@@ -5,14 +5,11 @@ p {
 
 .container {
    
-    
-
-    .contenedor{
+    .contenedor {
         margin-top: 81px;
-        margin-left: 181px;
-        margin-right: 149px;
-        width: 70%;
+        width: 100%;
         margin-bottom: 100px;
+        padding: 5%;
     }
 
     .title {
@@ -42,31 +39,18 @@ p {
 
 
 @media (max-width: 1200px) {
-    .contenedor {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
+
 }
 
 @media (max-width: 992px) {
-    .contenedor {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+
 }
 
 @media (max-width: 768px) {
-    .contenedor {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+
 }
 
 @media (max-width: 576px) {
-    .contenedor {
-        width: 100% !important;
-        margin-left: 10px !important;
-        margin-right: 10px!important;
-    }
+
 }
 
