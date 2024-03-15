@@ -6,6 +6,9 @@
     padding-left: 3%;
     padding-right: 3%;
 }
+.editionstitle {
+    padding-bottom: 0%;
+}
 .btnlargo{
     padding-left: 20%;
     padding-right: 20%;
@@ -25,14 +28,19 @@
     border: transparent;
     margin-right: 2%;
 }
-@media screen and (max-width: 780px) {
+
+@media screen and (max-width: 720px) {
     .cstm-width-img {
     margin: auto;
-    width: 24%;
+    width: 100%;
     }
+   
 }
-@media screen and (min-width: 780px) {
-    .bodyeditions {
+@media screen and (max-width: 900px) {
+ .imgspace {
+        display: none;
+    }
+/*     .bodyeditions {
         padding-left: 7%;
     }
     .editionscontent {
@@ -40,5 +48,5 @@
     } 
     .editionscontent-text {
         width: 60%;
-    }
+    } */
 }
